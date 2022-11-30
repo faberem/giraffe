@@ -60,7 +60,7 @@
                 @click="$router.push('/')"
             >
               <v-icon color="primary" large>mdi-feather</v-icon>
-              Hero
+              test- MI in a Nutshell
               <span class="accent--text">UI</span>
             </v-toolbar-title>
           </v-col>
@@ -104,32 +104,32 @@
 export default {
   data: () => ({
     drawer: null,
-    btnItems: [
-      {
-        text: "Free Download",
-        href: "https://github.com/AGDholo/giraffe",
-        target: "_black",
-        color: "primary",
-        icon: "mdi-download",
-      },
-    ],
+    /*   btnItems: [
+         {
+           text: "Free Download",
+           href: "https://github.com/AGDholo/giraffe",
+           target: "_black",
+           color: "primary",
+           icon: "mdi-download",
+         },
+       ],*/
     barItems: [
       {
         title: "Home",
         to: "/",
       },
-      {
-        title: "Category",
-        to: "/category",
-      },
-      {
-        title: "Detail",
-        to: "/detail",
-      },
-      {
-        title: "Authors",
-        to: "/authors",
-      },
+      /* {
+         title: "Category",
+         to: "/category",
+       },
+       {
+         title: "Detail",
+         to: "/detail",
+       },
+       {
+         title: "Authors",
+         to: "/authors",
+       },*/
       {
         title: "Login",
         to: "/login",

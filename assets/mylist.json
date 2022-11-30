@@ -1,0 +1,15 @@
+{
+
+    "praesentation": [
+      {
+       "id" : 1,
+        "titel": "titel_1",
+        "vortragender": "max muster"
+      },
+      {
+        "id" : 2,
+        "titel": "titel_2",
+        "vortragender": "max muster__2"
+      }
+    ]
+}
